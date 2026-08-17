@@ -115,3 +115,7 @@ $(call inherit-product, vendor/oneplus/salami/salami-vendor.mk)
 
 #camera
 $(call inherit-product-if-exists, vendor/oplus/camera-salami/opluscamera.mk)
+
+# Custom kernel (KSU/SUSFS/DroidSpaces) deviates from GKI kernel config requirements (CONFIG_SYSVIPC=y).
+# Disable build-time VINTF kernel config enforcement; runtime VINTF manifest checks stay enabled.
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false

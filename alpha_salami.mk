@@ -52,9 +52,10 @@ WITH_ADB_INSECURE := false
 TARGET_INCLUDE_SIMPLE_TUNE := true
 TARGET_PREBUILT_BCR := true
 
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/alpha/keys/releasekey
 # Maintainer
-ALPHA_BUILD_TYPE := Official
-ALPHA_MAINTAINER := OscarM
+ALPHA_BUILD_TYPE := Unofficial
+ALPHA_MAINTAINER := daniash551
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 

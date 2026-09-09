@@ -27,100 +27,94 @@
          every region seam). -->
     <screenBrightnessMap>
         <point>
-            <value>0.000244200</value> <!-- level 1 -->
-            <nits>1.976240</nits>
+            <value>0.000000127</value> <!-- level 3 -->
         </point>
         <point>
-            <value>0.000976801</value> <!-- level 4 (stock table min) -->
-            <nits>2.038000</nits>
+            <value>0.000000239</value> <!-- level 4 -->
         </point>
         <point>
-            <value>0.002442002</value> <!-- level 10 -->
-            <nits>2.163030</nits>
+            <value>0.000000390</value> <!-- level 5 -->
         </point>
         <point>
-            <value>0.012210012</value> <!-- level 50 -->
-            <nits>2.532460</nits>
+            <value>0.000000582</value> <!-- level 6 -->
         </point>
         <point>
-            <value>0.024420024</value> <!-- level 100 -->
-            <nits>2.737790</nits>
+            <value>0.000001096</value> <!-- level 8 -->
         </point>
         <point>
-            <value>0.048840049</value> <!-- level 200 -->
-            <nits>4.249500</nits>
+            <value>0.000001791</value> <!-- level 10 -->
         </point>
         <point>
-            <value>0.073260073</value> <!-- level 300 -->
-            <nits>7.527830</nits>
+            <value>0.000003189</value> <!-- level 13 -->
         </point>
         <point>
-            <value>0.097680098</value> <!-- level 400 -->
-            <nits>13.032000</nits>
+            <value>0.000005755</value> <!-- level 17 -->
         </point>
         <point>
-            <value>0.146520147</value> <!-- level 600 -->
-            <nits>31.668600</nits>
+            <value>0.000010148</value> <!-- level 22 -->
         </point>
         <point>
-            <value>0.195360195</value> <!-- level 800 -->
-            <nits>60.962000</nits>
+            <value>0.000017250</value> <!-- level 28 -->
         </point>
         <point>
-            <value>0.244200244</value> <!-- level 1000 -->
-            <nits>100.912000</nits>
+            <value>0.000029985</value> <!-- level 36 -->
         </point>
         <point>
-            <value>0.293040293</value> <!-- level 1200 -->
-            <nits>152.573000</nits>
+            <value>0.000051417</value> <!-- level 46 -->
         </point>
         <point>
-            <value>0.349938950</value> <!-- level 1433 (stock default) -->
-            <nits>230.742000</nits>
+            <value>0.000085622</value> <!-- level 58 -->
         </point>
         <point>
-            <value>0.415140415</value> <!-- level 1700 -->
-            <nits>338.402000</nits>
+            <value>0.000150722</value> <!-- level 75 -->
         </point>
         <point>
-            <value>0.488400488</value> <!-- level 2000 -->
-            <nits>478.354000</nits>
+            <value>0.000259441</value> <!-- level 96 -->
         </point>
         <point>
-            <value>0.499877900</value> <!-- level 2047 (normal range max) -->
-            <nits>502.519000</nits>
+            <value>0.000439575</value> <!-- level 122 -->
         </point>
         <point>
-            <value>0.561660562</value> <!-- level 2300 -->
-            <nits>538.472000</nits>
+            <value>0.000765633</value> <!-- level 157 -->
         </point>
         <point>
-            <value>0.610500611</value> <!-- level 2500 -->
-            <nits>568.108000</nits>
+            <value>0.001318478</value> <!-- level 201 -->
         </point>
         <point>
-            <value>0.671306471</value> <!-- level 2749 (panel HBM cmds latch above here) -->
-            <nits>603.201000</nits>
+            <value>0.002264093</value> <!-- level 257 -->
         </point>
         <point>
-            <value>0.732600733</value> <!-- level 3000 -->
-            <nits>640.679000</nits>
+            <value>0.003898274</value> <!-- level 329 -->
         </point>
         <point>
-            <value>0.805860806</value> <!-- level 3300 -->
-            <nits>699.439000</nits>
+            <value>0.006705976</value> <!-- level 421 -->
         </point>
         <point>
-            <value>0.879120879</value> <!-- level 3600 -->
-            <nits>754.740000</nits>
+            <value>0.011595986</value> <!-- level 540 -->
         </point>
         <point>
-            <value>0.952380952</value> <!-- level 3900 -->
-            <nits>803.177000</nits>
+            <value>0.019947713</value> <!-- level 691 -->
         </point>
         <point>
-            <value>1.000000000</value> <!-- level 4095 (kernel bl-max) -->
-            <nits>803.595000</nits>
+            <value>0.034380849</value> <!-- level 885 -->
+        </point>
+        <point>
+            <value>0.059203476</value> <!-- level 1133 -->
+        </point>
+        <point>
+            <value>0.102025731</value> <!-- level 1451 -->
+        </point>
+        <point>
+            <value>0.175768873</value> <!-- level 1858 -->
+        </point>
+        <point>
+            <value>0.302767447</value> <!-- level 2379 -->
+        </point>
+        <point>
+            <value>0.521491440</value> <!-- level 3046 -->
+        </point>
+        <point>
+            <value>0.898221698</value> <!-- level 3900 -->
         </point>
     </screenBrightnessMap>
 

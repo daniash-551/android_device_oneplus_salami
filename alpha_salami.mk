@@ -59,7 +59,7 @@ TARGET_PREBUILT_BCR := true
 PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/alpha/keys/releasekey
 # Maintainer
 ALPHA_BUILD_TYPE := Unofficial
-ALPHA_MAINTAINER := daniash551
+ALPHA_MAINTAINER := DaniAsh551 (osm1019 fork)
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 

@@ -1,0 +1,11 @@
+<!--
+    Device-level framework compatibility matrix override for salami.
+    Overrides SYSVIPC kernel config requirement: the 5.15 kernel
+    legitimately has CONFIG_SYSVIPC=y (System V IPC is required).
+-->
+<compatibility-matrix version="9.0" type="framework">
+    <kernel-config>
+        <key>CONFIG_SYSVIPC</key>
+        <value type="tristate">y</value>
+    </kernel-config>
+</compatibility-matrix>

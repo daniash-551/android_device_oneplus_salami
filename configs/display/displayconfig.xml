@@ -28,93 +28,127 @@
     <screenBrightnessMap>
         <point>
             <value>0.000000127</value> <!-- level 3 -->
+            <nits>1.955664</nits>
         </point>
         <point>
             <value>0.000000239</value> <!-- level 4 -->
+            <nits>1.955673</nits>
         </point>
         <point>
             <value>0.000000390</value> <!-- level 5 -->
+            <nits>1.955686</nits>
         </point>
         <point>
             <value>0.000000582</value> <!-- level 6 -->
+            <nits>1.955702</nits>
         </point>
         <point>
             <value>0.000001096</value> <!-- level 8 -->
+            <nits>1.955746</nits>
         </point>
         <point>
             <value>0.000001791</value> <!-- level 10 -->
+            <nits>1.955804</nits>
         </point>
         <point>
             <value>0.000003189</value> <!-- level 13 -->
+            <nits>1.955922</nits>
         </point>
         <point>
             <value>0.000005755</value> <!-- level 17 -->
+            <nits>1.956138</nits>
         </point>
         <point>
             <value>0.000010148</value> <!-- level 22 -->
+            <nits>1.956509</nits>
         </point>
         <point>
             <value>0.000017250</value> <!-- level 28 -->
+            <nits>1.957108</nits>
         </point>
         <point>
             <value>0.000029985</value> <!-- level 36 -->
+            <nits>1.958181</nits>
         </point>
         <point>
             <value>0.000051417</value> <!-- level 46 -->
+            <nits>1.959988</nits>
         </point>
         <point>
             <value>0.000085622</value> <!-- level 58 -->
+            <nits>1.962871</nits>
         </point>
         <point>
             <value>0.000150722</value> <!-- level 75 -->
+            <nits>1.968360</nits>
         </point>
         <point>
             <value>0.000259441</value> <!-- level 96 -->
+            <nits>1.977525</nits>
         </point>
         <point>
             <value>0.000439575</value> <!-- level 122 -->
+            <nits>1.992711</nits>
         </point>
         <point>
             <value>0.000765633</value> <!-- level 157 -->
+            <nits>2.020198</nits>
         </point>
         <point>
             <value>0.001318478</value> <!-- level 201 -->
+            <nits>2.067156</nits>
         </point>
         <point>
             <value>0.002264093</value> <!-- level 257 -->
+            <nits>2.147848</nits>
         </point>
         <point>
             <value>0.003898274</value> <!-- level 329 -->
+            <nits>2.218107</nits>
         </point>
         <point>
             <value>0.006705976</value> <!-- level 421 -->
+            <nits>2.324295</nits>
         </point>
         <point>
             <value>0.011595986</value> <!-- level 540 -->
+            <nits>2.509237</nits>
         </point>
         <point>
             <value>0.019947713</value> <!-- level 691 -->
+            <nits>2.662581</nits>
         </point>
         <point>
             <value>0.034380849</value> <!-- level 885 -->
+            <nits>3.354410</nits>
         </point>
         <point>
             <value>0.059203476</value> <!-- level 1133 -->
+            <nits>5.640765</nits>
         </point>
         <point>
             <value>0.102025731</value> <!-- level 1451 -->
+            <nits>14.690226</nits>
         </point>
         <point>
             <value>0.175768873</value> <!-- level 1858 -->
+            <nits>49.211470</nits>
         </point>
         <point>
             <value>0.302767447</value> <!-- level 2379 -->
+            <nits>165.936442</nits>
         </point>
         <point>
             <value>0.521491440</value> <!-- level 3046 -->
+            <nits>515.096503</nits>
         </point>
         <point>
             <value>0.898221698</value> <!-- level 3900 -->
+            <nits>767.368794</nits>
+        </point>
+        <point>
+            <value>1.000000000</value> <!-- level 4095 -->
+            <nits>803.595000</nits>
         </point>
     </screenBrightnessMap>
 

@@ -9,6 +9,9 @@ ZYGOTE_FORCE_64 := true
 # 64-bit-only zygote (no 32-bit Java); 32-bit bionic still built for native ELF exec
 TARGET_SUPPORTS_32_BIT_APPS := false
 TARGET_SUPPORTS_64_BIT_APPS := true
+# GAPPS variant: set before inherit-product so version.mk sees it
+TARGET_BUILD_PACKAGE := 3
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
@@ -17,6 +20,9 @@ $(call inherit-product, device/oneplus/salami/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/alpha/config/common_full_phone.mk)
+
+# Force GAPPS variant
+ALPHA_BUILD_VARIANT := gapps
 
 PRODUCT_NAME := alpha_salami
 PRODUCT_DEVICE := salami
@@ -33,11 +39,6 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # append time of day to zip
 ALPHA_VERSION_APPEND_TIME_OF_DAY := true
 
-# TARGET_BUILD_PACKAGE options:
-# 1 - vanilla (default)
-# 2 - microg
-# 3 - gapps
-TARGET_BUILD_PACKAGE := 1 # vanilla (no gapps)
 
 # (valid only for GAPPS builds)
 TARGET_INCLUDE_GOOGLE_COMMS := true

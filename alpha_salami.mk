@@ -9,8 +9,8 @@ ZYGOTE_FORCE_64 := true
 # 64-bit-only zygote (no 32-bit Java); 32-bit bionic still built for native ELF exec
 TARGET_SUPPORTS_32_BIT_APPS := false
 TARGET_SUPPORTS_64_BIT_APPS := true
-# GAPPS variant: set before inherit-product so version.mk sees it
-TARGET_BUILD_PACKAGE := 3
+# Vanilla variant: set before inherit-product so version.mk sees it
+TARGET_BUILD_PACKAGE := 1
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -21,8 +21,8 @@ $(call inherit-product, device/oneplus/salami/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/alpha/config/common_full_phone.mk)
 
-# Force GAPPS variant
-ALPHA_BUILD_VARIANT := gapps
+# Force vanilla variant
+ALPHA_BUILD_VARIANT := vanilla
 
 PRODUCT_NAME := alpha_salami
 PRODUCT_DEVICE := salami
